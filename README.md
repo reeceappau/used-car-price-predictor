@@ -1,6 +1,6 @@
 # Bento Motors — Used Car Price Predictor
 
-A machine learning pipeline for predicting used car prices, developed as part of the Applied AI module (UA92-333) at University Academy 92.
+A machine learning pipeline for predicting used car prices, developed as part of the Applied AI module at University Academy 92.
 
 ---
 
@@ -134,34 +134,3 @@ Type `yes` when prompted. Terraform will provision the Render web service automa
 
 > **Note:** The free tier on Render provides 512MB RAM. The deployed app retrains on a 50,000-row sample on startup rather than loading the full model. The service may take 2-3 minutes to wake up after a period of inactivity.
 
----
-
-## Live Application
-
-The live application URL is provided on the cover page of the submitted report.
-
----
-
-## Dependencies
-
-All dependencies are pinned in `requirements.txt`:
-
-```
-streamlit
-pandas
-numpy
-matplotlib
-scikit-learn
-shap
-joblib
-scipy
-```
-
----
-
-## Module Information
-
-- **Module:** Applied AI (UA92-333)
-- **Assessment:** Assessment 2 — Practical Report
-- **Institution:** University Academy 92
-- **Submission date:** 17 April 2026
